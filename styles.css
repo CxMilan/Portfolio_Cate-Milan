@@ -2,7 +2,7 @@
 font-family: 'Poppins' , sans-serif; */
 
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #190dc4;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -29,6 +29,11 @@ h1 {
 }
 
 h2{
+   font-size: 64px;
+   color: var(--branding-color);
+}
+
+h3{
    font-size: 64px;
 }
 
