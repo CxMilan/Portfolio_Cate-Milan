@@ -4,8 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Here are examples of projects created for the purpose of the program">
-   <title>Projects</title>
+   <meta name="description" content="Cate Milan is a graphic designer based in Montreal, Canada.">
+   <title>Projects - Cate Milan</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <script src="https://kit.fontawesome.com/6336b501ea.js" crossorigin="anonymous"></script>
@@ -20,74 +20,90 @@
       crossorigin="anonymous"></script>
 </head>
 <body cz-shortcut-listen="true">
-      <div class="container">
-         <nav class="d-flex justify-content-between">
-            <a href="/">
-               <img src="images/logo.png" class="logo d-none d-md-block" alt="full logo">
-               <img src="images/L9xk-logo-small.jpeg" class="logo d-block d-md-none" alt="small logo">
-            </a>
-            <ul>
-               <li>
-                  <a href="/"> Home</a>
-               </li>
-               <li>
-                  <a href="/about.html" title="About Cate"> About</a>
-               </li>
-               <li class="active">
-                  <a href="/work.html" title="Cate's Projects">Work</a>
-               </li>
-               <li>
-                  <a href="/contact.html" title="Contact Cate"> Contact</a>
-               </li>
-            </ul>
-         </nav>
-      </div>
+   <div class="container">
+      <nav class="d-flex justify-content-between">
+         <a href="/" title="Homepage">
+            <img src="images/logo.png" class="logo d-none d-md-block" alt="Full Logo">
+            <img src="images/L9xk-logo-small.jpeg" class="logo d-block d-md-none" alt="Small logo">
+         </a>
+         <ul>
+            <li>
+               <a href="/" title="Homepage">Home</a>
+            </li>
+            <li>
+               <a href="/about.html" title="About Cate"> About</a>
+            </li>
+            <li class="active">
+               <a href="/work.html" title="Cate's projects">Work</a>
+            </li>
+            <li>
+               <a href="/contact.html" title="Contact Cate">Contact</a>
+            </li>
+         </ul>
+      </nav>
+   </div>
    <div class="content-container container">
       <div class="content">
          <h1 class="mb-5 text-center">Take a look at what I've been working on!</h1>
 
          <div class="row">
             <div class="col-md-6 mb-4">
-               <img src="images/yogurt.png" class="img-fluid mb-3 rounded" alt="yogurt project">
+               <img src="images/yogurt.png" class="img-fluid mb-3 rounded" alt="Yogurt project">
                <h3 class="text-center m-0">Yogurt Project</h3>
-               <p class="text-center text-muted">Built with HTML and CSS</p>
-            </div>
-            <div class="col-md-6 mb-4">
-               <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="weather project">
-               <h3 class="text-center m-0">Weather Project</h3>
                <p class="text-center text-muted">
-                  Built with HTML, CSS and JavaScript
+                  Built with HTML, CSS, and JavaScript
                </p>
+               <div class="text-center mt-4 mb-5">
+                  <a href="/work.html" class="btn-branding" target="_blank">Launch Project</a>
+               </div>
             </div>
             <div class="col-md-6 mb-4">
-               <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="dictionnary app">
+               <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="Weather project">
+               <h3 class="text-center m-0">Weather App</h3>
+               <p class="text-center text-muted">
+                  Built using HTML, an active API, and advanced CSS and JavaScript
+               </p>
+               <div class="text-center mt-4 mb-5">
+                  <a href="/work.html" class="btn-branding" target="_blank">Launch Project</a>
+               </div>
+            </div>
+            <div class="col-md-6 mb-4">
+               <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="Disctionary project">
                <h3 class="text-center m-0">Dictionary App</h3>
                <p class="text-center text-muted">
-                  Built with HTML, CSS with React
+                  Built using HTML, an active API, advanced CSS, and React
                </p>
+               <div class="text-center mt-4 mb-5">
+                  <a href="/work.html" class="btn-branding" target="_blank">Launch Project</a>
+               </div>
             </div>
             <div class="col-md-6 mb-4">
-               <img src="images/translation.png" class="img-fluid mb-3 rounded" alt="translation app">
+               <img src="images/translation.png" class="img-fluid mb-3 rounded" alt="Translation project">
                <h3 class="text-center m-0">Translation App</h3>
                <p class="text-center text-muted">
-                  Built with HTML, CSS with React
+                  Built using HTML, an active API, advanced CSS, and React
                </p>
+               <div class="text-center mt-4 mb-5">
+                  <a href="/work.html" class="btn-branding" target="_blank">Launch Project</a>
+               </div>
             </div>
          </div>
       </div>
    </div>
-   <footer>
+   <footer class="container">
       <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
          <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
          </div>
          <div>
-            <a href="/contact.html" class="btn btn-branding mt-3"> Contact me </a>
+            <a class="btn btn-branding mt-3" href="/contact.html" title="Contact Cate">
+               Contact me
+            </a>
          </div>
       </div>
       <div class="d-flex justify-content-center mb-5">
-         <a href="mailto:catherine.milanetti@gmail.com" class="email-link">
+         <a href="mailto:catherine.milanetti@gmail.com" class="email-link" title="Email Cate">
             catherine.milanetti@gmail.com
          </a>
       </div>
@@ -104,6 +120,7 @@
       </div>
       <p class="notice text-center mt-5 text-muted">This project was coded SheCodes and it is
          <a href="https://github.com/CxMilan/Portfolio_Cate-Milan">open-sourced</a>.
+      </p>
       </p>
    </footer>
 </body>
